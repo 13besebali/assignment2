@@ -1,0 +1,146 @@
+body {
+background:  url(crossword1.0.png);
+}
+.content{
+    display: inline-block;
+    background: #efefef;
+    border-radius: 10px;
+	background:  url(crossword1.0.png);
+}
+.content>div{
+    float: left;
+    text-align: center;
+}
+div#clock{
+    padding-top: 100px;
+    margin-left: 580px;
+}
+#calendar {
+    display:inline-block;
+    margin: auto;
+    border:dashed 1px #orange;
+    display:table;
+    max-width: 850px;
+}
+
+div#calendar {
+    margin-left: 248px;
+}
+div#weather {
+	margin-left : 500px;
+}
+h2.monthName.ng-binding {
+    text-align: center;
+}
+#calendar>div.week {
+    float:left;
+    border-top:solid 1px #ccc;
+}        
+.today {
+    background:orange;
+}
+.disabled {
+    color: rgba(0,0,0,.4) !important;
+}
+.day {
+    color:#2875C7;
+    font-weight:bold;
+    width: 100px;
+    padding:10px;
+    display: table-cell;
+}
+
+li {
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  font-family: cursive;
+  background-color: mediumaquamarine;
+  list-style: none;
+  border: 2px solid #fff;
+     padding-top: 9px;
+    width: 41px;
+    height: 30px;
+  border-radius: 100px;
+  position: absolute;
+  left:0;
+  bottom:0;
+}
+table {
+    min-height: 300px;
+    min-width: 350px;
+}
+body {
+background:  url(bg.jpg);
+    background-size: cover;
+}
+.previous{
+	float:left;
+	margin-top:10px;
+}
+.next{
+	float:right;
+	margin-top:-40px;
+}
+h1.heading {
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    font-size: 38px;
+    font-family: cursive;
+}
+button {
+    padding: 10px;
+    background-color: #d0a874;
+    color: #fff;
+    font-size: 18px;
+    border: 0px;
+    border-radius: 25px;
+	margin-left: 621px;
+	    margin-top:10px;
+}
+img.clock {
+	position: absolute;
+    float: left;
+    width: 190px;
+    margin-top: 222px;
+	margin-left: -1050px;
+}
+
+img.calender {
+	position: absolute;
+    float: left;
+    width: 216px;
+    margin-top: 200px;
+	    margin-left: -778px;
+}
+img.weather {
+	position: absolute;
+    float: left;
+    width: 216px;
+    margin-top: 200px;
+	    margin-left: -538px;
+}
+p.cl.ng-binding {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 368px;
+	font-weight: bold;
+  font-family: cursive;
+}
+p.ca.ng-binding {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 630px;
+	font-weight: bold;
+  font-family: cursive;
+}
+p.w.ng-binding {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 880px;
+	font-weight: bold;
+  font-family: cursive;
+}
+

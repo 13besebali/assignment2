@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+
+Basit Ali
+
+</title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<style>
+
+</style>
+</head>
+
+<body ng-app="myApp">
+
+<div>
+	<h1 class = "heading"> Widget Dashboard </h1>
+</div>
+<div class="clock" width="50%" align="right"  ng-controller="AnalogClockController">
+<a href="clock.html"><img class ="clock" src="clock.png"></a>
+<p class = "cl">{{clock|date:'HH:mm:ss'}} </p>
+</div>
+
+<div width="50%" ng-controller="myAppController" align="right" >
+<a href="calender.html"> <img class ="calender" src="Calendar-icon.png"> </a>
+<p class = "ca">{{now | date}}</p>
+</div>
+
+<div width="50%" align="right" ng-controller="weatherController">
+<a href="weather.html"><img class ="weather" src="Snow-Occasional-icon.png"></a>
+<p class = "w">{{ place.item.condition.text }}</p>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>  
+<script src="script.js"></script>
+</body>
